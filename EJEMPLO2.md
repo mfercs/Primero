@@ -68,3 +68,42 @@ Si la cita se compone de varios parrafos, se tiene que agregar el simbolo > ante
 - Para presentar una o varias lineas de codigo se ponen dentro de los simbolos \`Aqui va la linea de codigo`.  
 
 `Esto es una linea de codigo <bfgjhjgrgbjdkgdjkfh>  end `
+
+Continuacion del ejercicio para aprender clonar repositorio fecha 27 Jun 24
+
+- Para insertar una imagen se "arrastra" la imagen de tu carpeta hacia VSC y se presiona la tleca shift cuando estes colocado en la línea que deseas que aparezca la imagen. 
+
+
+![alt text](3.png)
+
+- Puedes utilizar los links automaticos en caso de que quieras que se muestre la URL completa, la sintaxis es la siguiente: < aqui va la URL que quieres mostrar>.  
+<https://markdown.es/sintaxis-markdown/>
+
+- Para utilizar simbolos que se encuentran en algunas sintaxis como por ejemplo los simbolos  \~ \* \-, etc, ponemos una diagonal invertida \ antes de escribirlos para que no tengan efecto.  
+\\~  
+\\*  
+\\-
+************
+# Sintaxis Multimarkdown
+
+- Para crear una nota al final de la pagina:
+
+Esto es un texto normal que contiene una nota[^pilares]. 
+
+[^pilares]: pilares 100 metros.
+
+- Para crear una tabla  
+
+| Primera columna | Segunda columna | Tercera columna |
+| -- | -- | -- |
+| Fernanda        | Chavez          | Sanchez         |
+| Maki            | Chavez          | Ortega          |
+
+
+- Abreviaturas  
+
+WLAN tiene mayor alcance que una LAN.  
+
+*[WLAN]: INALAMBRICA  
+
+*[LAN]: ALAMBRICA
